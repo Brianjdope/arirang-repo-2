@@ -604,10 +604,12 @@ body::after {
   display: inline-block;
   font-size: 0.55rem; font-weight: 600;
   letter-spacing: 0.1em; text-transform: uppercase;
-  padding: 0.2rem 0.5rem; border-radius: 100px;
-  background: rgba(0,0,0,0.04); color: var(--text-muted);
+  padding: 0.2rem 0;
+  background: transparent; color: var(--text-muted);
   margin-bottom: 0.6rem;
+  transition: color 0.25s;
 }
+.menu-card:hover .menu-card-badge { color: var(--ink); }
 .badge-best {
   display: none;
 }
@@ -641,7 +643,9 @@ body::after {
 }
 .tag--spicy { background: rgba(212,57,46,0.1); color: var(--accent); }
 .tag--veg { background: rgba(52,211,153,0.1); color: #1a9a6a; }
-.tag--sweet { background: rgba(201,169,110,0.15); color: #8a6d30; }
+.tag--sweet { background: #FCE7F3; color: #9D174D; }
+.tag--popular { background: #E3EFF7; color: #01579B; }
+.tag--crispy { background: #FFEDD5; color: #9A3412; }
 
 /* ══════════════════════════════════════
    GALLERY

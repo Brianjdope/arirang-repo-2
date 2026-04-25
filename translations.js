@@ -21,6 +21,7 @@ var TRANSLATIONS = {
     "hero.stat.early": "We Open Early",
 
     // Section nav
+    "nav.home": "Home",
     "nav.menu": "Menu",
     "nav.gallery": "Gallery",
     "nav.story": "About Us",
@@ -70,7 +71,7 @@ var TRANSLATIONS = {
     "menu.sausage.name": "Sausage Kimbap",
     "menu.sausage.desc": "Korean-style sausage with seasoned rice, egg strips, and pickled radish — a kid-friendly classic.",
 
-    "tag.crowdfave": "Crowd Fave",
+    "tag.crowdfave": "Most Popular",
     "tag.spicy": "Spicy",
     "tag.vegetarian": "Vegetarian",
     "tag.crispy": "Crispy",
@@ -170,6 +171,7 @@ var TRANSLATIONS = {
     "hero.stat.rating": "구글 평점",
     "hero.stat.early": "이른 아침 오픈",
 
+    "nav.home": "홈",
     "nav.menu": "메뉴",
     "nav.gallery": "사진",
     "nav.story": "소개",
@@ -313,6 +315,7 @@ var TRANSLATIONS = {
     "hero.stat.rating": "Calificación Google",
     "hero.stat.early": "Abrimos Temprano",
 
+    "nav.home": "Inicio",
     "nav.menu": "Menú",
     "nav.gallery": "Galería",
     "nav.story": "Nosotros",

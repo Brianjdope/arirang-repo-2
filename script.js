@@ -174,7 +174,12 @@
   // Section nav tab clicks
   document.querySelectorAll('.section-nav-tab').forEach(function (tab) {
     tab.addEventListener('click', function () {
-      switchSection(this.getAttribute('data-section'));
+      var section = this.getAttribute('data-section');
+      if (section === 'home') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        return;
+      }
+      switchSection(section);
     });
   });
 
