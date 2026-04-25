@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@400;700;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="styles.css?v=4" />
 
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -95,8 +95,8 @@
     <ul class="mobile-menu-links">
       <li><a href="#" data-section="menu">Menu</a></li>
       <li><a href="#" data-section="gallery">Gallery</a></li>
-      <li><a href="#" data-section="story">Our Story</a></li>
-      <li><a href="#" data-section="hours">Hours &amp; Location</a></li>
+      <li><a href="#" data-section="story">About Us</a></li>
+      <li><a href="#" data-section="hours">Contact</a></li>
       <li><a href="#" data-section="reviews">Reviews</a></li>
     </ul>
     <div class="mobile-menu-footer">
@@ -117,8 +117,8 @@
       <span data-i18n="hero.badge">318 Broad Ave · Palisades Park, NJ · Est. 1999</span>
     </div>
     <h1 class="hero-title anim-in anim-d1">
-      아리랑 왕만두<br>&amp; 김밥
-      <span class="hero-title-en" data-i18n="hero.subtitle">Arirang Wang Mandu &amp; Kimbap</span>
+      <span data-i18n-html="hero.title">Arirang Wang Mandu<br>&amp; Kimbap</span>
+      <span class="hero-title-en" data-i18n="hero.subtitle">아리랑 왕만두 &amp; 김밥</span>
     </h1>
     <p class="hero-desc anim-in anim-d2" data-i18n="hero.desc">Handmade dumplings, fresh-rolled kimbap, and warm steamed buns — take-out from Palisades Park since 1999.</p>
     <div class="hero-actions anim-in anim-d3">
@@ -160,11 +160,11 @@
     </button>
     <button class="section-nav-tab" data-section="story">
       <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-      <span data-i18n="nav.story">Our Story</span>
+      <span data-i18n="nav.story">About Us</span>
     </button>
     <button class="section-nav-tab" data-section="hours">
       <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-      <span data-i18n="nav.hours">Hours</span>
+      <span data-i18n="nav.hours">Contact</span>
     </button>
     <button class="section-nav-tab" data-section="reviews">
       <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
@@ -179,23 +179,23 @@
   <!-- ── MENU PANEL ── -->
   <section class="panel panel--active" id="panel-menu">
     <div class="container">
-      <div class="panel-header">
+      <div class="panel-header panel-header--menu">
         <div>
-          <p class="eyebrow eyebrow--muted" data-i18n="menu.eyebrow">아리랑 왕만두 &amp; 김밥 · Take Out</p>
+          <p class="eyebrow eyebrow--muted" data-i18n="menu.eyebrow">아리랑 왕만두 &amp; 김밥 · Take out</p>
           <h2 class="panel-title">Our <em>Menu</em></h2>
         </div>
-        <div class="menu-tabs" role="tablist">
-          <button class="menu-tab active" role="tab" aria-selected="true" onclick="switchMenuTab(this,'tab-mandu')" data-i18n="menu.tab.mandu">만두 Mandu</button>
-          <button class="menu-tab" role="tab" aria-selected="false" onclick="switchMenuTab(this,'tab-kimbap')" data-i18n="menu.tab.kimbap">김밥 Kimbap</button>
-          <button class="menu-tab" role="tab" aria-selected="false" onclick="switchMenuTab(this,'tab-jjinbbang')" data-i18n="menu.tab.jjinbbang">찐빵 Jjin Bbang</button>
-        </div>
+      </div>
+      <div class="menu-tabs" role="tablist">
+        <button class="menu-tab active" role="tab" aria-selected="true" onclick="switchMenuTab(this,'tab-mandu')" data-i18n="menu.tab.mandu">만두 Mandu</button>
+        <button class="menu-tab" role="tab" aria-selected="false" onclick="switchMenuTab(this,'tab-kimbap')" data-i18n="menu.tab.kimbap">김밥 Kimbap</button>
+        <button class="menu-tab" role="tab" aria-selected="false" onclick="switchMenuTab(this,'tab-jjinbbang')" data-i18n="menu.tab.jjinbbang">찐빵 Jjin Bbang</button>
       </div>
 
       <!-- MANDU -->
       <div id="tab-mandu" class="menu-grid menu-tab-content menu-tab-content--active">
         <div class="menu-category">
           <span class="menu-category-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3C7 3 2.73 7.11 3.05 12.5C3.28 16.5 7 20 12 21c5-1 8.72-4.5 8.95-8.5C21.27 7.11 17 3 12 3z"/><path d="M3.5 12h17"/></svg></span>
-          <span class="menu-category-text" data-i18n="menu.cat.large">왕만두 · Large Size Dumplings — 6 pcs / $12</span>
+          <span class="menu-category-text" data-i18n="menu.cat.large">왕만두 · Large size dumplings</span>
         </div>
 
         <div class="menu-card menu-card--featured">
@@ -233,7 +233,7 @@
 
         <div class="menu-category">
           <span class="menu-category-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22c-4 0-8-2.5-8-7 0-3.5 3-6.5 4-8 .5-.7 1-1.5 1-2.5 0 2 2 3 3 4.5s2 3 2 5c0 1-.5 2-1.5 2.5"/><path d="M10 17c0-1.5 1-2.5 2-3.5 1 1 2 2 2 3.5a2 2 0 01-4 0z"/></svg></span>
-          <span class="menu-category-text" data-i18n="menu.cat.panfried">군만두 · Pan Fried Dumplings — 10 pcs / $8.50</span>
+          <span class="menu-category-text" data-i18n="menu.cat.panfried">군만두 · Pan fried dumplings</span>
         </div>
 
         <div class="menu-card">
@@ -260,7 +260,7 @@
 
         <div class="menu-category">
           <span class="menu-category-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="10" rx="9" ry="7"/><path d="M3 10v4c0 3.87 4.03 7 9 7s9-3.13 9-7v-4"/></svg></span>
-          <span class="menu-category-text" data-i18n="menu.cat.steamed">찐빵 · Jjin Bbang (Steamed Buns)</span>
+          <span class="menu-category-text" data-i18n="menu.cat.steamed">찐빵 · Jjin bbang (steamed buns)</span>
         </div>
 
         <div class="menu-card">
@@ -279,7 +279,7 @@
       <div id="tab-kimbap" class="menu-grid menu-tab-content">
         <div class="menu-category">
           <span class="menu-category-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L3 14h18L12 2z"/><rect x="3" y="14" width="18" height="6" rx="2"/><line x1="8" y1="14" x2="8" y2="20"/><line x1="16" y1="14" x2="16" y2="20"/></svg></span>
-          <span class="menu-category-text" data-i18n="menu.cat.kimbap">김밥 · Kimbap Rolls — 기본 가격 from $6</span>
+          <span class="menu-category-text" data-i18n="menu.cat.kimbap">김밥 · Kimbap rolls</span>
         </div>
 
         <div class="menu-card">
@@ -351,7 +351,7 @@
       <div id="tab-jjinbbang" class="menu-grid menu-tab-content">
         <div class="menu-category">
           <span class="menu-category-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="10" rx="9" ry="7"/><path d="M3 10v4c0 3.87 4.03 7 9 7s9-3.13 9-7v-4"/></svg></span>
-          <span class="menu-category-text" data-i18n="menu.cat.jjinbbang">찐빵 · Jjin Bbang — Freshly Steamed Buns</span>
+          <span class="menu-category-text" data-i18n="menu.cat.jjinbbang">찐빵 · Freshly steamed buns</span>
         </div>
 
         <div class="menu-card">
@@ -529,7 +529,7 @@
           <h2 class="panel-title panel-title--light" data-i18n="hours.title">Hours &amp; <em data-i18n="hours.title.em">Location</em></h2>
           <p class="hours-subtitle" data-i18n="hours.subtitle">We open early — stop by on your way to work or school. Fresh batches are ready from the moment we open.</p>
 
-          <div class="hours-card">
+          <div class="hours-card hours-card--flat">
             <div class="hours-row">
               <span class="hours-day" data-i18n="hours.monfri">Mon – Fri</span>
               <span class="hours-time">6:00 AM – 6:30 PM</span>
@@ -542,28 +542,46 @@
               <span class="hours-day" data-i18n="hours.sun">Sunday</span>
               <span class="hours-time hours-time--early">5:00 AM – 5:00 PM</span>
             </div>
-            <div class="hours-info">
-              <p class="hours-info-label" data-i18n="hours.address.label">Address</p>
-              <p class="hours-info-value">318 Broad Ave</p>
-              <p class="hours-info-sub">Palisades Park, NJ 07650</p>
-            </div>
-            <div style="margin-top:1.25rem;">
-              <p class="hours-info-label" data-i18n="hours.phone.label">Phone</p>
-              <a class="hours-info-link" href="tel:+12015851945">(201) 585-1945</a>
+            <div class="hours-contact-grid">
+              <div class="hours-info">
+                <p class="hours-info-label" data-i18n="hours.address.label">Address</p>
+                <p class="hours-info-value hours-info-oneline">318 Broad Ave, Palisades Park, NJ 07650</p>
+              </div>
+              <div class="hours-info">
+                <p class="hours-info-label" data-i18n="hours.phone.label">Phone</p>
+                <a class="hours-info-link" href="tel:+12015851945">(201) 585-1945</a>
+              </div>
             </div>
             <div class="hours-amenities">
-              <span class="hours-amenity" data-i18n="hours.credit">Credit Cards</span>
+              <span class="hours-amenity" data-i18n="hours.catering">Catering</span>
               <span class="hours-amenity" data-i18n="hours.takeout">Take-out</span>
               <span class="hours-amenity" data-i18n="hours.delivery">Delivery</span>
+            </div>
+            <div class="payment-methods" aria-label="Accepted payment methods">
+              <span class="payment-icon" title="Visa">
+                <svg width="34" height="22" viewBox="0 0 38 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="38" height="24" rx="4" fill="#1A1F71"/><text x="19" y="16" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="9" font-weight="900" fill="#fff" font-style="italic">VISA</text></svg>
+              </span>
+              <span class="payment-icon" title="American Express">
+                <svg width="34" height="22" viewBox="0 0 38 24" fill="none"><rect width="38" height="24" rx="4" fill="#2E77BB"/><text x="19" y="14" text-anchor="middle" font-family="Arial, sans-serif" font-size="5" font-weight="700" fill="#fff">AMERICAN</text><text x="19" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="5" font-weight="700" fill="#fff">EXPRESS</text></svg>
+              </span>
+              <span class="payment-icon" title="Mastercard">
+                <svg width="34" height="22" viewBox="0 0 38 24" fill="none"><rect width="38" height="24" rx="4" fill="#fff" stroke="#e5e5e5"/><circle cx="16" cy="12" r="6" fill="#EB001B"/><circle cx="22" cy="12" r="6" fill="#F79E1B" fill-opacity="0.85"/></svg>
+              </span>
+              <span class="payment-icon" title="Apple Pay">
+                <svg width="34" height="22" viewBox="0 0 38 24" fill="none"><rect width="38" height="24" rx="4" fill="#000"/><text x="19" y="16" text-anchor="middle" font-family="-apple-system, Helvetica, sans-serif" font-size="8" font-weight="600" fill="#fff">&#63743; Pay</text></svg>
+              </span>
+              <span class="payment-icon" title="Google Pay">
+                <svg width="34" height="22" viewBox="0 0 38 24" fill="none"><rect width="38" height="24" rx="4" fill="#fff" stroke="#e5e5e5"/><text x="19" y="16" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="700" fill="#5f6368">G Pay</text></svg>
+              </span>
             </div>
           </div>
         </div>
         <div class="hours-map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.4352490791367!2d-74.00619368461596!3d40.84970597931548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f8a7b0e5a1b3%3A0x4b3b0e89e4a1c2d5!2s318%20Broad%20Ave%2C%20Palisades%20Park%2C%20NJ%2007650!5e0!3m2!1sen!2sus!4v1700000000000"
+            src="https://maps.google.com/maps?q=318%20Broad%20Ave%2C%20Palisades%20Park%2C%20NJ%2007650&t=m&z=16&output=embed&iwloc=near"
             allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            title="Arirang location map">
+            title="Arirang Wang Mandu &amp; Kimbap — 318 Broad Ave, Palisades Park, NJ">
           </iframe>
           <a class="map-directions" href="https://maps.google.com/?q=318+Broad+Ave+Palisades+Park+NJ" target="_blank" rel="noopener">
             <span data-i18n="hours.directions">Get Directions →</span>
@@ -668,19 +686,19 @@
 <!-- ═══ FOOTER ═══ -->
 <footer class="footer">
   <div class="container">
+    <div class="footer-brand">
+      <p class="footer-brand-name"><span>아리랑</span> Wang Mandu &amp; Kimbap</p>
+      <p class="footer-brand-desc">Handmade mandu and fresh-rolled kimbap, take-out from 318 Broad Ave, Palisades Park, NJ since 1999.</p>
+    </div>
     <div class="footer-grid">
-      <div>
-        <p class="footer-brand-name"><span>아리랑</span> Wang Mandu &amp; Kimbap</p>
-        <p class="footer-brand-desc">Handmade mandu and fresh-rolled kimbap, take-out from 318 Broad Ave, Palisades Park, NJ since 1999.</p>
-      </div>
       <div class="footer-col">
         <h4>만두 Mandu</h4>
         <ul>
-          <li><a href="#" data-section="menu">고기 Meat Dumpling</a></li>
-          <li><a href="#" data-section="menu">김치 Kimchi Dumpling</a></li>
-          <li><a href="#" data-section="menu">야채 Vegetable Dumpling</a></li>
-          <li><a href="#" data-section="menu">팥 Sweet Red Bean</a></li>
-          <li><a href="#" data-section="menu">군만두 Pan Fried</a></li>
+          <li><a href="#" data-section="menu">고기 Meat dumpling</a></li>
+          <li><a href="#" data-section="menu">김치 Kimchi dumpling</a></li>
+          <li><a href="#" data-section="menu">야채 Vegetable dumpling</a></li>
+          <li><a href="#" data-section="menu">팥 Sweet red bean</a></li>
+          <li><a href="#" data-section="menu">군만두 Pan fried</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -688,18 +706,17 @@
         <ul>
           <li><a href="#" data-section="menu">오뎅 Fishcake</a></li>
           <li><a href="#" data-section="menu">불고기 Beef</a></li>
-          <li><a href="#" data-section="menu">오징어 Dried Squid</a></li>
-          <li><a href="#" data-section="menu">매운참치 Spicy Tuna</a></li>
+          <li><a href="#" data-section="menu">오징어 Dried squid</a></li>
+          <li><a href="#" data-section="menu">매운참치 Spicy tuna</a></li>
           <li><a href="#" data-section="menu">소세지 Sausage</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Find Us</h4>
+        <h4 data-i18n="footer.findus">Contact</h4>
         <ul>
-          <li><a href="#" data-section="hours">318 Broad Ave</a></li>
-          <li><a href="#" data-section="hours">Palisades Park, NJ 07650</a></li>
+          <li><a href="https://maps.google.com/?q=318+Broad+Ave+Palisades+Park+NJ+07650" target="_blank" rel="noopener">318 Broad Ave, Palisades Park, NJ 07650</a></li>
           <li><a href="tel:+12015851945">(201) 585-1945</a></li>
-          <li><a href="https://www.yelp.com/biz/arirang-dumpling-and-catering-palisades-park-2" rel="noopener">Yelp Reviews</a></li>
+          <li><a href="https://www.yelp.com/biz/arirang-dumpling-and-catering-palisades-park-2" rel="noopener">Yelp reviews</a></li>
         </ul>
       </div>
     </div>
@@ -710,7 +727,7 @@
   </div>
 </footer>
 
-<script src="translations.js?v=3"></script>
-<script src="script.js?v=4"></script>
+<script src="translations.js?v=4"></script>
+<script src="script.js?v=5"></script>
 </body>
 </html>

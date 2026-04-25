@@ -11,7 +11,8 @@ var TRANSLATIONS = {
 
     // Hero
     "hero.badge": "318 Broad Ave · Palisades Park, NJ · Est. 1999",
-    "hero.subtitle": "ARIRANG WANG MANDU & KIMBAP",
+    "hero.title": "Arirang Wang Mandu<br>&amp; Kimbap",
+    "hero.subtitle": "아리랑 왕만두 & 김밥",
     "hero.desc": "Handmade dumplings, fresh-rolled kimbap, and warm steamed buns — take-out from Palisades Park since 1999.",
     "hero.cta.menu": "Explore Menu",
     "hero.cta.order": "Call to Order",
@@ -22,8 +23,8 @@ var TRANSLATIONS = {
     // Section nav
     "nav.menu": "Menu",
     "nav.gallery": "Gallery",
-    "nav.story": "Our Story",
-    "nav.hours": "Hours",
+    "nav.story": "About Us",
+    "nav.hours": "Contact",
     "nav.reviews": "Reviews",
 
     // Menu
@@ -34,11 +35,11 @@ var TRANSLATIONS = {
     "menu.tab.kimbap": "김밥 Kimbap",
     "menu.tab.jjinbbang": "찐빵 Jjin Bbang",
 
-    "menu.cat.large": "왕만두 · Large Size Dumplings — 6 pcs / $12",
-    "menu.cat.panfried": "군만두 · Pan Fried Dumplings — 10 pcs / $8.50",
-    "menu.cat.steamed": "찐빵 · Jjin Bbang (Steamed Buns)",
-    "menu.cat.kimbap": "김밥 · Kimbap Rolls — from $6",
-    "menu.cat.jjinbbang": "찐빵 · Jjin Bbang — Freshly Steamed Buns",
+    "menu.cat.large": "왕만두 · Large size dumplings",
+    "menu.cat.panfried": "군만두 · Pan fried dumplings",
+    "menu.cat.steamed": "찐빵 · Jjin bbang (steamed buns)",
+    "menu.cat.kimbap": "김밥 · Kimbap rolls",
+    "menu.cat.jjinbbang": "찐빵 · Freshly steamed buns",
 
     "menu.meat.name": "Meat Dumpling",
     "menu.meat.desc": "Juicy pork and vegetable filling wrapped in a thick, hand-crimped dough. Steamed or pan-fried to order.",
@@ -126,6 +127,7 @@ var TRANSLATIONS = {
     "hours.address.label": "Address",
     "hours.phone.label": "Phone",
     "hours.credit": "Credit Cards",
+    "hours.catering": "Catering",
     "hours.takeout": "Take-out",
     "hours.delivery": "Delivery",
     "hours.directions": "Get Directions →",
@@ -149,7 +151,7 @@ var TRANSLATIONS = {
 
     // Footer
     "footer.desc": "Handmade mandu and fresh-rolled kimbap, take-out from 318 Broad Ave, Palisades Park, NJ since 1999.",
-    "footer.findus": "Find Us",
+    "footer.findus": "Contact",
     "footer.rights": "All rights reserved.",
     "footer.love": "Made with love and sesame oil"
   },
@@ -159,7 +161,8 @@ var TRANSLATIONS = {
     "nav.closed": "영업 종료",
 
     "hero.badge": "318 Broad Ave · 팰리세이즈 파크, NJ · 1999년 설립",
-    "hero.subtitle": "아리랑 왕만두 & 김밥",
+    "hero.title": "아리랑 왕만두<br>&amp; 김밥",
+    "hero.subtitle": "ARIRANG WANG MANDU & KIMBAP",
     "hero.desc": "수제 만두, 갓 만든 김밥, 따끈한 찐빵 — 1999년부터 팰리세이즈 파크에서 포장 전문.",
     "hero.cta.menu": "메뉴 보기",
     "hero.cta.order": "전화 주문",
@@ -169,8 +172,8 @@ var TRANSLATIONS = {
 
     "nav.menu": "메뉴",
     "nav.gallery": "사진",
-    "nav.story": "우리 이야기",
-    "nav.hours": "영업시간",
+    "nav.story": "소개",
+    "nav.hours": "연락처",
     "nav.reviews": "리뷰",
 
     "menu.eyebrow": "아리랑 왕만두 & 김밥 · 포장",
@@ -180,10 +183,10 @@ var TRANSLATIONS = {
     "menu.tab.kimbap": "김밥",
     "menu.tab.jjinbbang": "찐빵",
 
-    "menu.cat.large": "왕만두 · 대형 만두 — 6개 / $12",
-    "menu.cat.panfried": "군만두 · 군만두 — 10개 / $8.50",
+    "menu.cat.large": "왕만두 · 대형 만두",
+    "menu.cat.panfried": "군만두 · 팬프라이 만두",
     "menu.cat.steamed": "찐빵 · 찐빵",
-    "menu.cat.kimbap": "김밥 · 김밥 — $6부터",
+    "menu.cat.kimbap": "김밥 · 김밥",
     "menu.cat.jjinbbang": "찐빵 · 갓 쪄낸 찐빵",
 
     "menu.meat.name": "고기 만두",
@@ -269,6 +272,7 @@ var TRANSLATIONS = {
     "hours.address.label": "주소",
     "hours.phone.label": "전화",
     "hours.credit": "카드 결제",
+    "hours.catering": "케이터링",
     "hours.takeout": "포장",
     "hours.delivery": "배달",
     "hours.directions": "길찾기 →",
@@ -290,7 +294,7 @@ var TRANSLATIONS = {
     "reviews.yelp": "Yelp에서 모든 리뷰 보기 →",
 
     "footer.desc": "수제 만두와 갓 말은 김밥, 1999년부터 팰리세이즈 파크 318 Broad Ave에서 포장 전문.",
-    "footer.findus": "찾아오시는 길",
+    "footer.findus": "연락처",
     "footer.rights": "모든 권리 보유.",
     "footer.love": "사랑과 참기름으로 만들었습니다"
   },
@@ -300,7 +304,8 @@ var TRANSLATIONS = {
     "nav.closed": "Cerrado",
 
     "hero.badge": "318 Broad Ave · Palisades Park, NJ · Desde 1999",
-    "hero.subtitle": "ARIRANG WANG MANDU & KIMBAP",
+    "hero.title": "Arirang Wang Mandu<br>&amp; Kimbap",
+    "hero.subtitle": "아리랑 왕만두 & 김밥",
     "hero.desc": "Dumplings hechos a mano, kimbap fresco y bollos al vapor — comida para llevar de Palisades Park desde 1999.",
     "hero.cta.menu": "Ver Menú",
     "hero.cta.order": "Llamar para Ordenar",
@@ -310,8 +315,8 @@ var TRANSLATIONS = {
 
     "nav.menu": "Menú",
     "nav.gallery": "Galería",
-    "nav.story": "Nuestra Historia",
-    "nav.hours": "Horario",
+    "nav.story": "Nosotros",
+    "nav.hours": "Contacto",
     "nav.reviews": "Reseñas",
 
     "menu.eyebrow": "아리랑 왕만두 & 김밥 · Para Llevar",
@@ -321,11 +326,11 @@ var TRANSLATIONS = {
     "menu.tab.kimbap": "김밥 Kimbap",
     "menu.tab.jjinbbang": "찐빵 Jjin Bbang",
 
-    "menu.cat.large": "왕만두 · Dumplings Grandes — 6 pzas / $12",
-    "menu.cat.panfried": "군만두 · Dumplings Fritos — 10 pzas / $8.50",
-    "menu.cat.steamed": "찐빵 · Bollos al Vapor",
-    "menu.cat.kimbap": "김밥 · Rollos Kimbap — desde $6",
-    "menu.cat.jjinbbang": "찐빵 · Bollos Recién Hechos al Vapor",
+    "menu.cat.large": "왕만두 · Dumplings grandes",
+    "menu.cat.panfried": "군만두 · Dumplings fritos",
+    "menu.cat.steamed": "찐빵 · Bollos al vapor",
+    "menu.cat.kimbap": "김밥 · Rollos kimbap",
+    "menu.cat.jjinbbang": "찐빵 · Bollos recién hechos al vapor",
 
     "menu.meat.name": "Dumpling de Carne",
     "menu.meat.desc": "Relleno jugoso de cerdo y verduras envuelto en masa gruesa hecha a mano. Al vapor o frito a su gusto.",
@@ -410,6 +415,7 @@ var TRANSLATIONS = {
     "hours.address.label": "Dirección",
     "hours.phone.label": "Teléfono",
     "hours.credit": "Tarjetas de Crédito",
+    "hours.catering": "Catering",
     "hours.takeout": "Para Llevar",
     "hours.delivery": "Entrega",
     "hours.directions": "Cómo Llegar →",
@@ -431,7 +437,7 @@ var TRANSLATIONS = {
     "reviews.yelp": "Ver Todas las Reseñas en Yelp →",
 
     "footer.desc": "Mandu hecho a mano y kimbap fresco, para llevar desde 318 Broad Ave, Palisades Park, NJ desde 1999.",
-    "footer.findus": "Encuéntranos",
+    "footer.findus": "Contacto",
     "footer.rights": "Todos los derechos reservados.",
     "footer.love": "Hecho con amor y aceite de sésamo"
   }
