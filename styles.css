@@ -344,11 +344,11 @@ body::after {
 .hero-title-en {
   display: block;
   font-family: 'Inter', sans-serif;
-  font-size: clamp(0.75rem, 1.5vw, 1.1rem);
+  font-size: clamp(0.65rem, 1.3vw, 0.95rem);
   font-weight: 300; letter-spacing: 0.15em;
   text-transform: uppercase;
   color: rgba(255,255,255,0.4);
-  margin-top: 1.5rem;
+  margin-top: 2.25rem;
   line-height: 1.5;
 }
 
@@ -516,7 +516,7 @@ body::after {
   color: var(--ink);
 }
 #panel-menu .panel-title { color: var(--ink); }
-#panel-menu .eyebrow { color: var(--text-muted); }
+#panel-menu .eyebrow { color: var(--ink-light); }
 
 .menu-tabs {
   display: inline-flex; gap: 0.3rem;
@@ -595,6 +595,11 @@ body::after {
   background: #fff;
 }
 
+.menu-card-top {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 0.5rem; margin-bottom: 0.6rem;
+}
+.menu-card-top .menu-card-badge { margin-bottom: 0; }
 .menu-card-badge {
   display: inline-block;
   font-size: 0.55rem; font-weight: 600;
@@ -848,7 +853,7 @@ body::after {
   gap: clamp(2rem, 5vw, 4rem);
   align-items: start;
 }
-#panel-hours .panel-title { margin-bottom: 1.5rem; }
+#panel-hours .panel-title { margin-bottom: 2.25rem; }
 .hours-subtitle {
   font-size: 0.85rem; color: var(--text-light);
   line-height: 1.5; margin-bottom: 2rem;
@@ -879,7 +884,7 @@ body::after {
 .hours-time--early { color: var(--gold); }
 
 .hours-info { }
-.hours-card--flat .hours-row:last-of-type { border-bottom: 1px solid var(--border-subtle); }
+.hours-card--flat .hours-row:last-of-type { border-bottom: none; }
 .hours-contact-grid {
   display: grid; grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
@@ -1106,7 +1111,7 @@ body::after {
   align-items: center; flex-wrap: wrap; gap: 0.75rem;
 }
 .footer-bottom p {
-  font-size: 0.7rem; color: rgba(255,255,255,0.45);
+  font-size: 0.7rem; color: rgba(255,255,255,0.3);
   letter-spacing: 0.03em;
   line-height: 1.5;
 }
