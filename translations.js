@@ -130,6 +130,9 @@ var TRANSLATIONS = {
     "hours.catering": "Catering",
     "hours.takeout": "Take-out",
     "hours.delivery": "Delivery",
+    "hours.creditcard": "Credit Card",
+    "hours.googlepay": "Google Pay",
+    "hours.applepay": "Apple Pay",
     "hours.directions": "Get Directions →",
 
     // Reviews
@@ -275,6 +278,9 @@ var TRANSLATIONS = {
     "hours.catering": "케이터링",
     "hours.takeout": "포장",
     "hours.delivery": "배달",
+    "hours.creditcard": "신용카드",
+    "hours.googlepay": "구글 페이",
+    "hours.applepay": "애플 페이",
     "hours.directions": "길찾기 →",
 
     "reviews.eyebrow": "구글 리뷰 · 4.6 / 5",
@@ -418,6 +424,9 @@ var TRANSLATIONS = {
     "hours.catering": "Catering",
     "hours.takeout": "Para Llevar",
     "hours.delivery": "Entrega",
+    "hours.creditcard": "Tarjeta de Crédito",
+    "hours.googlepay": "Google Pay",
+    "hours.applepay": "Apple Pay",
     "hours.directions": "Cómo Llegar →",
 
     "reviews.eyebrow": "Reseñas de Google · 4.6 / 5",

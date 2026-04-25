@@ -909,6 +909,7 @@ body::after {
   margin-top: 1.5rem;
   display: flex; gap: 0.5rem; flex-wrap: wrap;
 }
+.hours-amenities--payments { margin-top: 0.6rem; }
 .hours-amenity {
   font-size: 0.6rem; font-weight: 600;
   letter-spacing: 0.06em; text-transform: uppercase;
