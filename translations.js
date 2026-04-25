@@ -131,7 +131,6 @@ var TRANSLATIONS = {
     "hours.takeout": "Take-out",
     "hours.delivery": "Delivery",
     "hours.directions": "Get Directions →",
-    "hours.order.label": "Order Online",
 
     // Reviews
     "reviews.eyebrow": "Google Reviews · 4.6 / 5",
@@ -277,7 +276,6 @@ var TRANSLATIONS = {
     "hours.takeout": "포장",
     "hours.delivery": "배달",
     "hours.directions": "길찾기 →",
-    "hours.order.label": "온라인 주문",
 
     "reviews.eyebrow": "구글 리뷰 · 4.6 / 5",
     "reviews.title.what": "고객",
@@ -421,7 +419,6 @@ var TRANSLATIONS = {
     "hours.takeout": "Para Llevar",
     "hours.delivery": "Entrega",
     "hours.directions": "Cómo Llegar →",
-    "hours.order.label": "Pedir en Línea",
 
     "reviews.eyebrow": "Reseñas de Google · 4.6 / 5",
     "reviews.title.what": "Lo Que Nuestros",
