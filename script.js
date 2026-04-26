@@ -235,6 +235,13 @@
     }
   };
 
+  // Wire up menu tab buttons (CSP blocks inline onclick handlers)
+  document.querySelectorAll('.menu-tab[data-menu-tab]').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      window.switchMenuTab(this, this.getAttribute('data-menu-tab'));
+    });
+  });
+
   // ══════════════════════════════════════
   // 7. MOBILE MENU
   // ══════════════════════════════════════
